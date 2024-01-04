@@ -1,0 +1,48 @@
+body, header, nav {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: sf-pro-light;
+    src: url(/assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(22, 22, 23, 0.80);
+    backdrop-filter: blur(10px);
+    height: 44px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 44px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: sf-pro-light;
+    font-size: 11.5px;
+    padding-right: 42px;
+}
+
+
+
+.right-icons {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    gap:42px;
+}
