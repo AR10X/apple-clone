@@ -21,6 +21,8 @@ nav {
     display: flex;
     align-items: center;
     height: 44px;
+    cursor: pointer;
+    /* background-color: black; */
 }
 
 .navlinks {
@@ -45,4 +47,49 @@ nav {
     align-items: center;
     height: 44px;
     gap:2.7vw;
+    /* background-color: black; */
+}
+
+.menu-btn {
+    cursor: pointer;
+    padding: 0 20px 0 0;
+
+}
+
+.line {
+    width: 15px;
+    height: 1px;
+    margin: 7px 0;
+    background-color: white;
+}
+
+@media only screen and (max-width: 832px) {
+    .navlinks {
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+        height: 47px;
+    }
+
+    .logo {
+        padding: 0 15px 0 15px;
+    }
+    
+    .logo img {
+        width: 16px;
+        height: auto;
+        align-items: center;
+    }
+    .right-icons img {
+        width: 16px;
+        height: auto;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (min-width: 832px) {
+    .menu-btn {
+        display: none;
+    }
 }
