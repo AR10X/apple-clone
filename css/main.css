@@ -1,0 +1,17 @@
+@font-face {
+    font-family: sf-pro-light;
+    src: url(../assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.ttf);
+
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1D1D1F;
+    font-family: sf-pro-light;
+    font-size: 13.5px;
+    font-weight: 600;
+    height: 45px;
+}
