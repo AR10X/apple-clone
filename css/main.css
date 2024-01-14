@@ -4,6 +4,17 @@
 
 }
 
+@font-face {
+    font-family: sf-pro-semibold;
+    src: url(../assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.ttf);
+  }
+
+  @font-face {
+    font-family: sf-pro-regular;
+    src: url(../assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.ttf);
+  }
+
+
 .section-one {
     display: flex;
     justify-content: center;
@@ -23,8 +34,8 @@
 }
 
 .section-two {
-    background-image: url('/assets/img/section-two-img.png');
-    background-size: contain;
+    background-image: url(../assets/img/section-two-img.png);
+    background-size: cover;
     background-position: center;
     height: 580px;
     display: flex;
@@ -32,5 +43,40 @@
     align-items: center;
     color: white;
     flex-direction: column;
+    
+    
+    
+}
+
+.iphone-heading {
+    font-size: 54px;
+    padding: 0;
+    /* background-color: orange; */
+    font-family: sf-pro-semibold;
+}
+
+.iphone-heading-2 {
+    font-size: 25px;
     font-family: sf-pro-light;
+    font-weight: 600;
+}
+
+.learn-more {
+    font-family: sf-pro-light;
+    font-size: 20px;
+}
+
+.section-two-two {
+    background-image: url(../assets/img/section-two-img-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    
+    
+    
 }
