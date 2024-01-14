@@ -21,3 +21,16 @@
     margin-left: 8px;
     align-items: center;
 }
+
+.section-two {
+    background-image: url('/assets/img/section-two-img.png');
+    background-size: contain;
+    background-position: center;
+    height: 580px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    font-family: sf-pro-light;
+}
