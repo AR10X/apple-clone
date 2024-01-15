@@ -100,3 +100,68 @@
     
     
 }
+
+#videoplayer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.section-two-three {
+    position: relative;
+}
+
+.section-two-three p {
+    color: white;
+    text-align: center;
+
+}
+
+.watch-logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 3px;
+}
+
+.watch-logo img {
+    width: 38px;
+}
+
+.watch-heading {
+    font-family: sf-pro-semibold;
+    font-size: 43px;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 40%;
+}
+
+.series {
+    font-family: sf-pro-light;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.learn-more-watch {
+    font-family: sf-pro-light;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+    
+}
+
+.learn-more-watch a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
