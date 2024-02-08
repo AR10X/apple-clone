@@ -1,0 +1,94 @@
+@font-face {
+    font-family: sf-pro-light;
+    src: url(../assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.ttf);
+
+}
+
+@font-face {
+    font-family: sf-pro-semibold;
+    src: url(../assets/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.ttf);
+  }
+
+
+.section-three {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 15px;
+    margin-top: 70px;
+}
+
+.grid-bg {
+    background-size: cover;
+    background-position: center;
+    height: 581px;
+    text-align: center;
+}
+
+
+.grid-1 {
+    background-image: url(../assets/img/section-three-watch.png);
+    
+}
+.grid-2 {
+    background-image: url(../assets/img/mac-pro.png);
+}
+
+.grid-3 {
+    background-image: url(../assets/img/ipad.png);
+}
+
+.grid-4 {
+    background-image: url(../assets/img/airpods-pro.png);
+    color: white;
+}
+
+.grid-5 {
+    background-image: url(../assets/img/homepod-mini.png);
+}
+.grid-6 {
+    background-image: url(../assets/img/trade-in.png);
+}
+
+
+.feature-heading {
+    font-size: 35px;
+    
+ 
+    font-family: sf-pro-semibold;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.feature-subheading {
+    font-size: 20px;
+    font-family: sf-pro-light;
+    font-weight: 600;
+ 
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+.feature-actions {
+    font-family: sf-pro-light;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.feature-actions a {
+    text-decoration: none;
+    color: #2997FF;
+}
+
+.feature-actions a img {
+    margin-left: 10px;
+}
+
+.feature-actions a:hover {
+    text-decoration: underline;
+}
+
